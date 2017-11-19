@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #383D41;
+}
+.menu{
+  height: 30px;
+  background: #999999;
+}
+.header{
+  position: relative;
+  margin: 0 auto;
+  width: 980px;
+  height: 320px;
+}
+.header .banner{
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.logo{
+  position: absolute;
+  left: 8px;
+  z-index: 44;
+  width: 665px;
+  top: 1px;
+}
+.content{
+  position: relative;
+  margin: 0 auto;
+  width: 980px;
+}
+.content img{
+  width:100%;
+}
+.footer{
+  position: relative;
+  margin:0 auto;  
+  height: 60px;
+  background: #999999
+}
+.footer p{
+  text-align: center;
+  color: #ffffff;
+  line-height: 60px;
+}
